@@ -1,3 +1,10 @@
+# problem that I have faced
+
+1. Api call shows 429. 
+2. which is access connection request also if I open in chrome tag it's shows the same 
+3 . So I used both approch one is static which is currently sharing with you
+4 . Another one I have mentioned how to achieve it which part to comment  
+
 # Problem Statement
 
 https://dummy.restapiexample.com/api/v1/employees
@@ -31,3 +38,5 @@ https://dummy.restapiexample.com/api/v1/employees
  
 
 6.make a component for api call 
+
+
