@@ -33,17 +33,17 @@ const DynamicTable = () => {
     setLoader(true);
     const { data, status } = fetchTableData();
     if (status === 200) {
+      // if does not work due access connection coming fromserver
       setEmployeeData(data);
-      setConsistentEmployeeData(data)
-      // setConsistentEmployeeData(employeeDataStatic);
     }
-    setEmployeeData([])
-    // setEmployeeData(employeeDataStatic);
+    //so I used static data for this just unComment this to see data comming from API 
+    setEmployeeData(employeeDataStatic);
     setLoader(false);
   };
 
 const handleSelectOnChange = (data) => {
   setSelectedAgeRange(data);
+  // change employeeDataStatic to employeeData while checking it with api
   setEmployeeData(filterToAgeRange(employeeDataStatic,data.value.min,data.value.max))
 }
 
@@ -55,7 +55,8 @@ const handleSelectOnChange = (data) => {
           placeholder='Select Age Range'
           value={selectedAgeRange}
           onChange={handleSelectOnChange}
-          options={generateAgeRange(consistentEmployeeData)}
+          // change employeeDataStatic to employeeData while checking it with api
+          options={generateAgeRange(employeeDataStatic)}
           
         />
         <table>
