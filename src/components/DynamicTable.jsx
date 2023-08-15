@@ -1,3 +1,4 @@
+//Please Go through readMe document
 import { useEffect, useState } from "react";
 import { HashLoader } from "react-spinners";
 import User from "./User";
