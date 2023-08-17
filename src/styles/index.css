@@ -44,6 +44,29 @@ td {
   font-size: 1.4rem;
 }
 
+.react-select-wrapper {
+  display: flex;
+  width: 100%; 
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.custom-text-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.custom-text-input:focus {
+  outline: none;
+  border-color: #443C68; 
+  box-shadow: 0 0 5px rgba(68,60,104); 
+}
+
+
+
 
 
 
