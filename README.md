@@ -1,15 +1,8 @@
-# problem that I have faced
-
-1. Api call shows 429. 
-2. which is access connection request also if I open in chrome tag it's shows the same 
-3 . So I used both approch one is static which is currently sharing with you
-4 . Another one I have mentioned how to achieve it which part to comment  
-
-# Problem Statement
-
-https://dummy.restapiexample.com/api/v1/employees
+API : https://dummyjson.com/products
 
  
+
+Questions:
 
 1. Create a parent Component and get response from above API
 
@@ -23,20 +16,15 @@ https://dummy.restapiexample.com/api/v1/employees
 
  
 
-4. Create two buttons "Ascending" and "Descending" and sort data based on employee salary
+4. Create two buttons "Ascending" and "Descending" and sort data based on product price
 
  
 
-5. Create a dropdown of age range with age difference of 20 (0-20, 21-40, 41-60). Depending on selection display in table.
+5. Create a dropdown of product rating with product rating of 1 (0-1, 1-2). Depending on selection display in table.
 
                 Make the age range dynamic.
 
-                eg: 1. If oldest employee in data is 72 age range will create till (0-20, 21-40, 41-60, 61-80)
+6.make a component for API call.
 
-      eg: 2. If oldest employee in data is 51 age range will create till (0-20, 21-40, 41-60)
-
- 
-
-6.make a component for api call 
-
+7. make search on top of the table for product name search 
 
